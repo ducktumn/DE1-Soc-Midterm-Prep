@@ -1,0 +1,3 @@
+iverilog -g2012 -c cpu_files.txt -o output
+vvp output
+gtkwave test.vcd
